@@ -20,7 +20,7 @@ spec:
             memory: "128Mi"
             cpu: "1"
         ports:
-        - containerPort: 3000
+        - containerPort: 8000
 ---
 apiVersion: v1
 kind: Service
@@ -30,6 +30,6 @@ spec:
   selector:
     app: picky
   ports:
-  - port: 3000
-    targetPort: 3000
+  - port: 8000
+    targetPort: 8000
 

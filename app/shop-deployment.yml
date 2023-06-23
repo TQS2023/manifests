@@ -20,7 +20,7 @@ spec:
           - name: MYSQL_URL
             value: "jdbc:mysql://mysql.mysql.svc.cluster.local:3306/tqsproject"
           - name: PICKY_URL
-            value: "http://picky-svc.tqs.svc.cluster.local:3000"
+            value: "http://picky-svc.tqs.svc.cluster.local:8000"
           - name: ES_APM_URL
             value: "http://apm.observability.svc.cluster.local:8200"
         resources:
